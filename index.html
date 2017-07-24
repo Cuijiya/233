@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap practise</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS%20for%20index.css" />
+</head>
+<body>
+
+<div class="navbar-wrapper">
+<div class="container">
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home of Star</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Join in us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Concert</a></li>
+                        <li><a href="#">Other activity</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+</nav>
+</div>
+</div>
+
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="./d111.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="color:darkblue;">Welcome to home of star!</h1>
+                    <p class="lead" style="color:darkblue;"> MY DEAR STAR: whoever you are, wherever you come from, whatever you do, it is your home.</p>
+                    <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./1.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption-diff">
+                    <h1 style="color:darkblue;">Hey, it's me!</h1>
+                    <p class="lead" style="color:darkblue;">There is a lovely boy named JasonZhang.</p>
+                    <a class="btn btn-large btn-primary" href="#">Know more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./D.jpeg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>The sea of star.</h1>
+                    <p class="lead">I love the world with abundant color.But if you ask me which color I love most——BlUE, without think!</p>
+                    <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
+<div class="container marketing">
+    <div class="row">
+        <div class="span4">
+            <img class="img-circle" src="./me.jpg" >
+            <h2>No.1 Jiya</h2>
+            <p>She is the owner of this website. The biggest fun of Mr Zhang as well.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <img class="img-circle" src="./me.jpg">
+            <h2>No.2 Monia</h2>
+            <p>She left nothing but a serial of beautiful photos of Jason.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <img class="img-circle" src="./2.jpg">
+            <h2>No.3 David</h2>
+            <p>He knows everything. If you have any questions. Go for he to get an answer.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img class="featurette-image pull-right" src="./want.jpg">
+        <h2 class="featurette-heading"> 那些年我们一起追过的专辑<span class="muted">Take your ears a shower.</span></h2>
+        <p class="lead">Life is beautiful because of you and your song.</p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img class="featurette-image pull-left" src="./video.jpg">
+        <h2 class="featurette-heading">聊一聊荧屏上的张三岁<span class="muted">I am fall in love with your childish smile.</span></h2>
+        <p class="lead">If the golden sun, Should cease to shine its light,<br>Just one smile from you, Would make my whole world bright.<br> Thank you, Jason.</p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img class="featurette-image pull-right" src="./c.jpg">
+        <h2 class="featurette-heading">说说杰哥的穿搭与其他<span class="muted">Something else you want to talk about.</span></h2>
+        <p class="lead">When you learning to be brave, you will meet your angel.</p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</div>
+
+
+
+
+</body>
+</html>
